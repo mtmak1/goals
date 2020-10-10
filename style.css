@@ -8,4 +8,11 @@ html, body {
   background-color: #ec0c0c;
   border-radius: 33.33333%;
 }
+
+button {
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: #db7704;
+  font-family: "Ruslan Display", cursive;
+}
 /*# sourceMappingURL=style.css.map */

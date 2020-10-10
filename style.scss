@@ -1,0 +1,14 @@
+$my_like_color: "red";
+$circle_radius:50px;
+$circle_color:   rgb(236, 12, 12);
+html,body{
+    background-color: $my_like_color;
+}
+@import "mixin";
+.circle{
+      
+    width: $circle_radius;
+    height: $circle_radius;
+    background-color:  $circle_color;
+ @include setRadius(100%);
+}
